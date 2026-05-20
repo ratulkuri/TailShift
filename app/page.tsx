@@ -1,8 +1,7 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Converter } from "@/components/Converter";
-
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://tailshift.app";
+import { SITE_URL } from "@/lib/site";
 
 const jsonLd = {
   "@context": "https://schema.org",

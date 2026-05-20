@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { SITE_URL } from "@/lib/site";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://tailshift.app";
 const SITE_NAME = "TailShift";
 const TAGLINE = "Convert Tailwind CSS classes between v3 and v4";
 const DESCRIPTION =
