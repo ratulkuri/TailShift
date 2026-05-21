@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Converter } from "@/components/Converter";
@@ -48,6 +49,15 @@ export default function HomePage() {
             Paste any className string and TailShift rewrites it for the other Tailwind major
             version. Handles renames, opacity modifiers, the new <code>!</code> position, and
             arbitrary CSS variable syntax.
+          </p>
+          <p className="mt-5 text-sm text-slate-600 dark:text-slate-400">
+            Migrating a whole project?{" "}
+            <Link
+              href="/config"
+              className="font-medium text-[var(--color-brand-600)] underline decoration-[var(--color-brand-500)] decoration-2 underline-offset-4 hover:decoration-[var(--color-brand-700)]"
+            >
+              Merge tailwind.config.js + globals.css into v4 →
+            </Link>
           </p>
         </section>
 

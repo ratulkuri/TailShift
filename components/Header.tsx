@@ -17,7 +17,19 @@ export function Header() {
           </span>
           <span>TailShift</span>
         </Link>
-        <nav aria-label="Primary">
+        <nav aria-label="Primary" className="flex items-center gap-5">
+          <Link
+            href="/"
+            className="text-sm text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-brand-600)] rounded"
+          >
+            Classes
+          </Link>
+          <Link
+            href="/config"
+            className="text-sm text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-brand-600)] rounded"
+          >
+            Config
+          </Link>
           <a
             href="https://tailwindcss.com/docs/upgrade-guide"
             target="_blank"

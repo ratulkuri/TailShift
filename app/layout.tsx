@@ -72,7 +72,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="min-h-screen bg-white text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100 font-sans">
         <a href="#main" className="skip-link">
-          Skip to converter
+          Skip to main content
         </a>
         {children}
       </body>
